@@ -12,7 +12,7 @@
 }
 
 * {
-    margin: 1%;
+    margin: 0;
     padding: 0;
 }
 
@@ -24,16 +24,19 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 2% 2% 15%;
+    
+    
 
 }
 
     .cabecalho__menu {
         display: flex;
-        gap: 80px;
+        gap: 20px;
     }
 
 .cabecalho__menu__link {
+    
      font-family: var(--fonr-secundaria);
      font-size: 1.5rem;
      font-weight: 600;
@@ -50,7 +53,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -122,13 +125,13 @@ body {
 }
 
 .apresentacao__imagem   {
-    width: 50%;
+    width: 40%;
 }
 
 @media(max-width:1200px) {
 
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
     }
 
     .cabecalho__menu{
